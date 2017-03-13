@@ -1,0 +1,391 @@
+ERROR main com.joshua.demo1.Test - 结束运行。。。。
+INFO main org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+INFO main org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+INFO main org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO main org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+INFO main org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+INFO main org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+DEBUG main org.quartz.simpl.SimpleThreadPool - Shutting down threadpool...
+DEBUG DefaultQuartzScheduler_Worker-9 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-1 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-5 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-10 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-6 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-2 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-4 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-8 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-3 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-7 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG main org.quartz.simpl.SimpleThreadPool - No executing jobs remaining, all threads stopped.
+DEBUG main org.quartz.simpl.SimpleThreadPool - Shutdown of threadpool complete.
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+ERROR main com.joshua.demo1.Test - 结束运行。。。。
+INFO main org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+INFO main org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+INFO main org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO main org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+INFO main org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+INFO main org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'group1.job1', class=com.joshua.demo1.HelloJob
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+DEBUG DefaultQuartzScheduler_Worker-1 org.quartz.core.JobRunShell - Calling execute on job group1.job1
+ERROR DefaultQuartzScheduler_Worker-1 com.joshua.demo1.HelloJob - 咫尺天涯Mon Mar 13 16:06:00 CST 2017
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+DEBUG main org.quartz.simpl.SimpleThreadPool - Shutting down threadpool...
+DEBUG DefaultQuartzScheduler_Worker-1 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-7 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-6 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-9 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-3 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-5 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-10 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-2 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-4 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-8 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG main org.quartz.simpl.SimpleThreadPool - No executing jobs remaining, all threads stopped.
+DEBUG main org.quartz.simpl.SimpleThreadPool - Shutdown of threadpool complete.
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+ERROR main com.joshua.demo1.Test - 结束运行。。。。
+INFO main org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+INFO main org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+INFO main org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO main org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+INFO main org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+INFO main org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+DEBUG main org.quartz.simpl.SimpleThreadPool - Shutting down threadpool...
+DEBUG DefaultQuartzScheduler_Worker-1 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-4 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-5 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-2 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-3 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-9 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-8 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-6 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-7 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-10 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG main org.quartz.simpl.SimpleThreadPool - No executing jobs remaining, all threads stopped.
+DEBUG main org.quartz.simpl.SimpleThreadPool - Shutdown of threadpool complete.
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+ERROR main com.joshua.demo1.Test - 结束运行。。。。
+INFO main org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+INFO main org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+INFO main org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO main org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+INFO main org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+INFO main org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_Worker-1 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+DEBUG main org.quartz.simpl.SimpleThreadPool - Shutting down threadpool...
+DEBUG DefaultQuartzScheduler_Worker-7 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-3 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-6 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-4 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-10 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-9 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-8 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-5 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-2 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-1 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG main org.quartz.simpl.SimpleThreadPool - No executing jobs remaining, all threads stopped.
+DEBUG main org.quartz.simpl.SimpleThreadPool - Shutdown of threadpool complete.
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+INFO main org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+INFO main org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+INFO main org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO main org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+INFO main org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+INFO main org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+DEBUG main org.quartz.simpl.SimpleThreadPool - Shutting down threadpool...
+DEBUG DefaultQuartzScheduler_Worker-4 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-7 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-8 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-1 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-3 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-6 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-10 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-5 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-9 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-2 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG main org.quartz.simpl.SimpleThreadPool - No executing jobs remaining, all threads stopped.
+DEBUG main org.quartz.simpl.SimpleThreadPool - Shutdown of threadpool complete.
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+INFO main org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+INFO main org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+INFO main org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO main org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+INFO main org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+INFO main org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_Worker-1 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job2', class=com.joshua.demo2.MyJob
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_Worker-2 org.quartz.core.JobRunShell - Calling execute on job goup1.job2
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob
+DEBUG DefaultQuartzScheduler_Worker-3 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_Worker-4 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+DEBUG main org.quartz.simpl.SimpleThreadPool - Shutting down threadpool...
+DEBUG DefaultQuartzScheduler_Worker-3 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-2 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-4 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-8 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-7 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-10 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-6 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-9 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-5 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-1 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG main org.quartz.simpl.SimpleThreadPool - No executing jobs remaining, all threads stopped.
+DEBUG main org.quartz.simpl.SimpleThreadPool - Shutdown of threadpool complete.
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+INFO main org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+INFO main org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+INFO main org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO main org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+INFO main org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+INFO main org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_Worker-1 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_Worker-2 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_Worker-3 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+DEBUG main org.quartz.simpl.SimpleThreadPool - Shutting down threadpool...
+DEBUG DefaultQuartzScheduler_Worker-1 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-2 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-5 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-7 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-8 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-9 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-4 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-10 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-6 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-3 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG main org.quartz.simpl.SimpleThreadPool - No executing jobs remaining, all threads stopped.
+DEBUG main org.quartz.simpl.SimpleThreadPool - Shutdown of threadpool complete.
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+INFO main org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+INFO main org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+INFO main org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO main org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+INFO main org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+INFO main org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_Worker-1 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_Worker-2 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_Worker-3 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_Worker-4 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job2', class=com.joshua.demo2.MyJob2
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_Worker-5 org.quartz.core.JobRunShell - Calling execute on job goup1.job2
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_Worker-6 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_Worker-7 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+DEBUG main org.quartz.simpl.SimpleThreadPool - Shutting down threadpool...
+DEBUG DefaultQuartzScheduler_Worker-6 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-5 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-7 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-3 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-8 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-9 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-10 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-1 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-4 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG DefaultQuartzScheduler_Worker-2 org.quartz.simpl.SimpleThreadPool - WorkerThread is shut down.
+DEBUG main org.quartz.simpl.SimpleThreadPool - No executing jobs remaining, all threads stopped.
+DEBUG main org.quartz.simpl.SimpleThreadPool - Shutdown of threadpool complete.
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+INFO main org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+INFO main org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+INFO main org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO main org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+INFO main org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+INFO main org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_Worker-1 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_Worker-2 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job2', class=com.joshua.demo2.MyJob2
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_Worker-3 org.quartz.core.JobRunShell - Calling execute on job goup1.job2
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_Worker-4 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_Worker-5 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_Worker-6 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_Worker-7 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_Worker-8 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_Worker-9 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job2', class=com.joshua.demo2.MyJob2
+DEBUG DefaultQuartzScheduler_Worker-10 org.quartz.core.JobRunShell - Calling execute on job goup1.job2
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_Worker-1 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_Worker-2 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_Worker-3 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_Worker-4 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_Worker-5 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_Worker-6 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job2', class=com.joshua.demo2.MyJob2
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_Worker-7 org.quartz.core.JobRunShell - Calling execute on job goup1.job2
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_Worker-8 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'goup1.job1', class=com.joshua.demo2.MyJob1
+DEBUG DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+DEBUG DefaultQuartzScheduler_Worker-9 org.quartz.core.JobRunShell - Calling execute on job goup1.job1
